@@ -28,4 +28,4 @@ const Blender = ({ tp, url }) => {
   );
 };
 
-export default Blender;
+export default Blender; 

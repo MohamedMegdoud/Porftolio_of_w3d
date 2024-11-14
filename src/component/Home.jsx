@@ -1,10 +1,10 @@
 import React from "react";
-import image from '../images/doc8.png'
+import image from '../images/images (1).jpeg'
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div className='mt-7 flex justify-between items-center gap-6'>
+    <div className='mt-24 flex justify-between items-center gap-6'>
       <div>
         {/* <p className='text-gray-500'>Software Developer</p> */}
         <h2 className='text-7xl mb-3'>Hello I'm</h2>
@@ -17,7 +17,7 @@ const Home = () => {
            
       </div>
       <div>
-        <img src={image} alt="" />
+        <img src={image} alt="" className=" w-full" />
       </div>
     </div>
   );
